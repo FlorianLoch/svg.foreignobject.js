@@ -1,0 +1,30 @@
+{
+  "name": "svg.foreignobject.js",
+  "version": "0.1.0",
+  "description": "svg.foreignobject.js plugin that you can require",
+  "main": "svg.foreignobject.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fibo/svg.foreignobject.js.git"
+  },
+  "keywords": [
+    "svg"
+  ],
+  "author": {
+    "name": "Gianluca Casati",
+    "url": "http://g14n.info"
+  },
+  "license": [
+    {
+      "type": "MIT",
+      "url": "http://g14n.info/mit-license"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/fibo/svg.foreignobject.js/issues"
+  },
+  "homepage": "https://github.com/fibo/svg.foreignobject.js"
+}
