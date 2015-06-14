@@ -1,30 +1,42 @@
 {
   "name": "svg.foreignobject.js",
-  "version": "0.1.0",
-  "description": "svg.foreignobject.js plugin that you can require",
-  "main": "svg.foreignobject.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "version": "1.0.0",
+  "description": "An extension for svg.js which add support to foreign objects",
+  "main": "dist/svg.foreignobject.js",
+  "keywords": [
+    "svg.js",
+    "foreignobject"
+  ],
+  "bugs": "https://github.com/wout/svg.foreignobject.js/issues",
+  "license": "MIT",
+  "author": {
+    "name": "Wout Fierens"
   },
+  "contributors": [
+    { "name": "Wout Fierens" },
+    { "name": "Ulrich-Matthias Schäfer" }
+  ],
+  "homepage": "https://github.com/wout/svg.foreignobject.js",
+  "files": [
+    "dist/"
+  ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/fibo/svg.foreignobject.js.git"
+    "url": "https://github.com/wout/svg.foreignobject.js.git"
   },
-  "keywords": [
-    "svg"
-  ],
-  "author": {
-    "name": "Gianluca Casati",
-    "url": "http://g14n.info"
+  "engines": {
+    "node": ">= 0.8.0"
   },
-  "license": [
-    {
-      "type": "MIT",
-      "url": "http://g14n.info/mit-license"
-    }
-  ],
-  "bugs": {
-    "url": "https://github.com/fibo/svg.foreignobject.js/issues"
+  "devDependencies": {
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-uglify": "~0.2.0",
+    "grunt-contrib-watch": "~0.4.0",
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt-contrib-copy": "^0.7.0",
+    "grunt": "~0.4.5",
+    "grunt-bumper": "^1.0.4"
   },
-  "homepage": "https://github.com/fibo/svg.foreignobject.js"
+  "dependencies": {
+    "svg.js":"2.x.x"
+  }
 }
