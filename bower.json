@@ -1,0 +1,28 @@
+{
+  "name": "svg.foreignobject.js",
+  "version": "1.0.0",
+  "homepage": "https://github.com/wout/svg.foreignobject.js",
+  "authors": [
+    "Wout Fierens",
+    "Ulrich-Matthias Schäfer"
+  ],
+  "description": "An extension for svg.js which add support to foreign objects",
+  "main": [
+    "./dist/svg.foreignobject.js"
+  ],
+  "keywords": [
+    "svg.js",
+    "foreignobject",
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "svg.js":"2.x.x"
+  }
+}

@@ -1,3 +1,13 @@
+# svg.js.plugin.foreignobject
+
+> svg.foreignobject.js plugin that you can require
+
+This package was forked from [svg.foreignobject.js](https://github.com/wout/svg.foreignobject.js) in order to be able to import it with a `require` and plug into [svg.js.extend](https://www.npmjs.com/package/svg.js.extend) to get an extended [svg.js](http://svgjs.com/).
+
+Minor fixes were applyed to make it work with *svg.js* 2.0 version.
+
+Follows original *svg.js.foreignobject* README.md content.
+
 # svg.foreignobject.js
 
 A plugin for the [svgjs.com](http://svgjs.com) library to create foreign object elements in svg.
