@@ -13,17 +13,18 @@
 
     var txt = "some text that is quite long.  and it goes on and on.  and it's pointless really.  and the grammar is terrible.  blah. blah. blah"
 
-    var canvas = SVG('canvas').size(1024, 550)
-    canvas.rect(1024, 550).attr({ fill: '#eee' })
-    var fobj = canvas.foreignObject(100,100).attr({id: 'fobj'})
+    var canvas = SVG('canvas').size(1024, 550);
+    canvas.rect(1024, 550).attr({ fill: '#eee' });
+    var fobj = canvas.foreignObject(300,200).attr({id: 'fobj'});
 
     function doit() {
-      fobj.appendChild("div", {id: 'mydiv', innerText: txt})
-      var n = fobj.getChild(0)
-      fobj.attr({width: 200, height: 100}).rotate(45).move(100,0)
-      n.style.height = '50px'
-      n.style.overflow = 'hidden'
-      n.style.border = "solid black 1px"
+      fobj.appendChild("div", {id: 'mydiv', innerText: txt});
+      fobj.appendChild("hr");
+      var n = fobj.getChild(0);
+      fobj.rotate(45).move(150,0);
+      n.style.height = '150px';
+      n.style.overflow = 'hidden';
+      n.style.border = "solid black 1px";
     }
 
   </script>
