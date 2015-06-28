@@ -1,7 +1,7 @@
 <html>
 <head>
   <script src="./node_modules/svg.js/dist/svg.min.js"></script>
-  <script src="dist/svg.foreignobject.js"></script>
+  <script src="dist/svg.foreignobject.min.js"></script>
 </head>
 <body onload="doit()">
 
@@ -22,6 +22,7 @@
       fobj.appendChild("hr");
       var n = fobj.getChild(0);
       fobj.rotate(45).move(150,0);
+      n.style.width = '250px';
       n.style.height = '150px';
       n.style.overflow = 'hidden';
       n.style.border = "solid black 1px";

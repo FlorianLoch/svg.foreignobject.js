@@ -15,9 +15,7 @@
       var newChild = (typeof child === "string") ? document.createElement(child) : child;
       if (typeof attrs === "object"){
         for(var a in attrs) {
-          var attrNode = document.createAttribute(a);
-          attrNode.nodeValue = attrs[a];
-          newChild.setAttributeNode(attrNode);
+          newChild[a] = attrs[a];
         }
       }
       this.node.appendChild(newChild);
